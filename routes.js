@@ -24,7 +24,7 @@ router.route('/new/:url(*)').get(async (req, res) => {
 
       res.json({
         original_url: url,
-        short_url: `[my url]/${ref}`,
+        short_url: `https://cat-garden.glitch.me/${ref}`,
       });
     } catch (err) {
       res.json({
