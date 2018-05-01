@@ -8,4 +8,4 @@ User Story: When I visit that shortened URL, it will redirect me to my original 
 
 
 Environment variable used for accessing mongodb:
-MONGOLAB_URI='mongodb://<username>:<password>@ds161459.mlab.com:61459/freecodecamp'
+MONGOLAB_URI='mongodb://[username]:[password]@ds161459.mlab.com:61459/freecodecamp'
